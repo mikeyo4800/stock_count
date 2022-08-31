@@ -1,0 +1,4 @@
+
+pandas==1.4.1
+snscrape @ git+https://github.com/JustAnotherArchivist/snscrape.git@ed3ea944d177157d688786470c8369198b0ce8ce
+
