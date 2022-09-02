@@ -10,7 +10,7 @@ stock = st.text_input("Ex: $TSLA")
 
 tweets_list = []
 
-for i, tweet in enumerate(sntwitter.TwitterSearchScraper('{} since:2022-08-31 until:2022-09-01'.format(stock)).get_items()):
+for i, tweet in enumerate(sntwitter.TwitterSearchScraper('{} since:2022-09-01 until:2022-09-02'.format(stock)).get_items()):
     tweets_list.append([tweet.date, tweet.content])
 
 st.write(len(tweets_list))
